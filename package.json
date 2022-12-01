@@ -1,0 +1,23 @@
+{
+  "name": "pruebas_jest_test_js",
+  "version": "1.0.0",
+  "description": "``` Importante: 💻  Este ejercicio es interactivo! Sigue las instrucciones. ```",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-Vivanco/pruebas_jest_test_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/E-Vivanco/pruebas_jest_test_js/issues"
+  },
+  "homepage": "https://github.com/E-Vivanco/pruebas_jest_test_js#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
