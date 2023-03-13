@@ -1,3 +1,8 @@
+//let oneEuroIs = {
+//    "JPY": 127.9, // japan yen
+//    "USD": 1.2, // us dollar
+//    "GBP": 0.8, // british pound
+//}
 // esta es mi función que suma dos números
 const sum = (a,b) => {
     return a + b
@@ -15,6 +20,13 @@ const fromEuroToDollar = function(valueInEuro){
     // retornamos el valor
     return valueInDollar;
 }
+const fromDollarToYen = function(valueInEuro){
+    // convertimos el valor a dolares
+    let valueInYen = valueInEuro * 127.9;
+    // retornamos el valor
+    return valueInYen;
+}
+
 const fromYenToPound = function(valueInEuro){
     // convertimos el valor a dolares
     let valueInPound = valueInEuro * 0.8;
@@ -22,14 +34,7 @@ const fromYenToPound = function(valueInEuro){
     return valueInPound;
 }
 
-const fromDollarToYen = function(valueInEuro){
-    // convertimos el valor a dolares
-    let valueInyen = valueInEuro * 127.9;
-    // retornamos el valor
-    return valueInyen;
-}
 
+    
 
-
-
-module.exports = { sum,fromEuroToDollar,fromDollarToYen,fromYenToPound };
+module.exports = { sum, fromEuroToDollar, fromDollarToYen, fromYenToPound };
